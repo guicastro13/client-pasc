@@ -21,8 +21,7 @@ const PopProduct = (props) => {
   } = product[indexProduct];
   return (
     <>
-      <h1>indice = {id}</h1>
-      <button onClick={render}>click</button>
+      <button onClick={render}>CLICK PARA VOLTAR</button>
       <table className="table-auto ">
         <thead>
           <tr>
